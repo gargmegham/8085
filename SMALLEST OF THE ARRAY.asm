@@ -1,4 +1,3 @@
-false
 LDA 2500
 MOV B,A
 DCR B
