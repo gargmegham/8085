@@ -1,4 +1,3 @@
-false
 // SUBSTRACTION OF TWO 8BIT NUMBERS
 // Manually strore 1st no in the memory location C050
 // Manually store 2nd no in the memory location C051
