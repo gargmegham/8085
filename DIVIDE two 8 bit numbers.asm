@@ -1,4 +1,3 @@
-false
 LXI H,2050
 MOV B,M
 INX H
