@@ -1,4 +1,3 @@
-false
 //program to add two NUMBERS with carry
 //STORE RESULT AT 2052
 LXI H,2050
