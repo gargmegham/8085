@@ -1,16 +1,14 @@
-false
-LDA 2500
-MOV B,A
-DCR B
-MVI A,05H
-LXI H,2501
-LOOP : CMP M
-JC SKIP
-MOV A,M
-SKIP:DCR B
-INX H
-JNZ LOOP
-STA 2520
-HLT
-# ORG 2500
-# DB 04H,01H,12H,FFH,A0H
+true
+// SHIFT AN 16-BIT NUMBER LEFT BY 2 BITS
+// The number to be shifted is stored in C050 & C051
+// Answer is stored in C052 & C053
+	   LHLD C050
+	   DAD H	// this cannot be achived by RLC
+	   DAD H
+	   SHLD C052
+	   HLT
+// EXAMPLE-> C050=96,C051=15
+// Answer-> C052=58,C053=56
+
+# ORG C050
+# DB 96H,15H
