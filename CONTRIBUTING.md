@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to the Music Recommendation Engine! We welcome contributions from the community to help improve and enhance the project. Before you start contributing, please take a moment to review the guidelines below.
+Thank you for your interest in contributing to the 8085! We welcome contributions from the community to help improve and enhance the project. Before you start contributing, please take a moment to review the guidelines below.
 
 ## Code of Conduct
 
@@ -30,4 +30,4 @@ All contributions will go through a code review process. Feedback and suggestion
 
 By contributing to this project, you agree that your contributions will be licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-We appreciate your contributions and look forward to your involvement in the Music Recommendation Engine project!
+We appreciate your contributions and look forward to your involvement in the 8085 project!
